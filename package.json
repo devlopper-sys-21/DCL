@@ -1,0 +1,24 @@
+{
+  "name": "a-new-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w --skipLibCheck",
+    "dev": "nodemon index.ts"
+  },
+  "author": "Oxzify",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "pretty-ms": "^7.0.1",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
